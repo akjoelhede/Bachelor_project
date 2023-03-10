@@ -1,6 +1,6 @@
 #Dockerfile, image, container
 
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:2.12.0rc1-gpu
 
 ADD gpu.py .
 
